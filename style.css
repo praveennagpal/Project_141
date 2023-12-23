@@ -1,0 +1,63 @@
+.heading {
+    width: 100%;
+    text-align: left;
+}
+
+.heading h3 {
+    display: inline;
+    text-align: center;
+    font-size: 22px;
+}
+
+.heading button {
+    float: right;
+    border: 1px solid white;
+}
+
+#start {
+    font-size: 20px;
+}
+
+#status, #restart {
+    font-size: 16px;
+}
+
+body {
+    background-size: cover;
+}
+
+#footer {
+    position: fixed;
+    margin-bottom: 0;
+    color: rgb(42, 40, 40);
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    line-height: 2;
+    text-align: center;
+  }
+
+.modal-dialog {
+    width: 90%;
+    ;
+}
+
+.modal-body {
+    text-align: left;
+    font-size: 16px;
+}
+
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+    animation-name: example;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite ;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 75px rgb(235, 75, 75);}
+    to {box-shadow: 1px 1px 75px rgb(78, 113, 216);}
+}
